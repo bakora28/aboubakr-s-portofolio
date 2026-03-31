@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aboubakr — Portfolio</title>
+    <meta
+      name="description"
+      content="Aboubakr Ashraf — full-stack developer (React, Next.js, Node.js). Production e‑commerce and clinic systems. Cairo · BSc AI · available for freelance &amp; roles."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="page-grid-bg" aria-hidden="true"></div>
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a href="#home" class="logo" aria-label="Aboubakr Ashraf — home">
+          <span class="logo-monogram" aria-hidden="true">AA</span>
+          <span class="logo-text">Aboubakr Ashraf</span>
+        </a>
+        <nav aria-label="Main">
+          <ul class="nav-links">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="https://github.com/bakora28" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </li>
+          </ul>
+        </nav>
+        <button type="button" class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          Menu
+        </button>
+        <a href="#contact" class="btn-talk">Get in touch</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="badge badge--pulse hero-entrance" style="--he: 0">Open to freelance &amp; full‑stack roles</span>
+            <h1 class="hero-headline hero-entrance" style="--he: 1">
+              Full‑stack developer building fast, scalable web apps for businesses
+            </h1>
+            <p class="role-line hero-entrance" style="--he: 2">
+              Core focus:
+              <span class="highlight" id="typed-role" aria-live="polite"></span
+              ><span class="cursor-blink" aria-hidden="true"></span>
+            </p>
+            <p class="lead lead--hero hero-entrance" style="--he: 3">
+              I’m Aboubakr — I help teams ship <strong>production web apps</strong> with
+              <strong>React, Next.js, and Node</strong>. I care about <strong>performance, UX, and maintainable
+              code</strong> — built for real users, not throwaway demos.
+            </p>
+            <div class="hero-stack hero-entrance" style="--he: 4" aria-label="Main stack">
+              <span class="hero-pill">React</span>
+              <span class="hero-pill">Next.js</span>
+              <span class="hero-pill">Node.js</span>
+              <span class="hero-pill">TypeScript</span>
+              <span class="hero-pill">PostgreSQL</span>
+              <span class="hero-pill">MongoDB</span>
+              <span class="hero-pill">AWS</span>
+              <span class="hero-pill">Git</span>
+            </div>
+            <p class="hero-cred hero-entrance" style="--he: 5">
+              <span class="hero-cred__item">Production systems shipped</span>
+              <span class="hero-cred__dot" aria-hidden="true">·</span>
+              <span class="hero-cred__item">BSc Artificial Intelligence</span>
+              <span class="hero-cred__dot" aria-hidden="true">·</span>
+              <span class="hero-cred__item">Cairo, Egypt</span>
+            </p>
+            <div class="hero-actions hero-entrance" style="--he: 6">
+              <a href="#projects" class="btn-primary">View projects</a>
+              <a href="assets/docs/aboubakr-ashraf-resume.pdf" class="btn-secondary" download target="_blank" rel="noopener"
+                >Download CV</a
+              >
+              <a href="#contact" class="btn-text-link">Contact me</a>
+            </div>
+            <div class="social-row social-row--labeled hero-entrance" style="--he: 7" aria-label="Social links">
+              <a
+                href="https://github.com/bakora28"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/in/aboubakr-ashraf"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                >LinkedIn</a
+              >
+              <a
+                href="https://wa.me/201128658008"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                >WhatsApp</a
+              >
+            </div>
+          </div>
+          <div class="hero-visual js-hero-parallax" data-parallax-strength="0.11">
+            <div class="deco-ring r1" aria-hidden="true"></div>
+            <div class="deco-ring r2" aria-hidden="true"></div>
+            <div class="deco-sphere s1" aria-hidden="true"></div>
+            <div class="deco-sphere s2" aria-hidden="true"></div>
+            <div class="hero-photo-wrap hero-photo-wrap--brand">
+              <div class="hero-photo-wrap__mask" aria-hidden="true"></div>
+              <img
+                src="assets/images/portrait.png"
+                alt="Aboubakr Ashraf"
+                width="420"
+                height="560"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section-divider" id="projects">
+        <div class="section-inner">
+          <span class="badge reveal reveal-fade">Projects</span>
+          <div class="section-head reveal reveal-up">
+            <h2>Projects</h2>
+          </div>
+          <p class="section-lead reveal reveal-up reveal-delay-1">
+            Production work: a full e‑commerce platform (Drip/Trip) and a paid clinic system running in Egypt.
+          </p>
+
+          <article class="project-detail reveal reveal-up reveal-delay-2">
+            <div class="project-detail__media project-detail__media--driptrip">
+              <div class="project-showcase" role="group" aria-label="Drip Trip screenshots">
+                <button
+                  type="button"
+                  class="project-showcase__hero clinic-gallery__cell"
+                  data-lightbox-group="ecommerce"
+                  aria-label="View main dashboard screenshot full size"
+                >
+                  <img
+                    src="assets/images/projects/driptrip/login-dashboard.png"
+                    alt="Drip Trip — login and dashboard"
+                    loading="lazy"
+                    decoding="async"
+                    width="640"
+                    height="400"
+                    draggable="false"
+                  />
+                </button>
+                <div class="project-showcase__sub">
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Products"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/products-sample.png"
+                      alt="Products"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Filters"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/filter-user-needs.png"
+                      alt="Filters"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Wishlist"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/wishlist.png"
+                      alt="Wishlist"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Cart"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/cart.png"
+                      alt="Cart"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                </div>
+                <div class="project-showcase__sub project-showcase__sub--3">
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Checkout"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/proceed-to-checkout.png"
+                      alt="Checkout"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                  <button
+                    type="button"
+                    class="clinic-gallery__cell"
+                    data-lightbox-group="ecommerce"
+                    aria-label="Telegram bot"
+                  >
+                    <img
+                      src="assets/images/projects/driptrip/telegram-order-bot.png"
+                      alt="Telegram order bot"
+                      loading="lazy"
+                      decoding="async"
+                      draggable="false"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-detail__content">
+              <p class="project-kicker">E‑commerce · Full stack</p>
+              <h3 class="project-detail__title">
+                Amazon‑style Shopping Platform <span class="project-alias">(Drip/Trip)</span>
+              </h3>
+              <p class="project-detail__lead">
+                <strong>Outcome:</strong> Full shopping flow — auth, catalog, filters, cart, checkout, and
+                Telegram order alerts for ops.
+              </p>
+              <p class="project-detail__desc">
+                <strong>My role:</strong> Full‑stack across the product and integrations (payments, auth,
+                notifications).
+              </p>
+              <p class="project-detail__desc project-detail__desc--tight">
+                <strong>Problem solved:</strong> Replaced ad‑hoc ordering with browse → pay → notify.
+                <strong>Impact:</strong> Production‑ready for Stripe / Paymob and real traffic; add sales
+                metrics when you have them.
+              </p>
+              <ul class="project-metrics" aria-label="Project highlights">
+                <li><strong>7+</strong> key flows documented (screens below)</li>
+                <li><strong>Production‑oriented</strong> checkout &amp; cart paths</li>
+                <li><strong>Ops:</strong> Telegram bot for order handoff</li>
+              </ul>
+              <div class="tag-list tag-list--compact">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+                <span>Stripe / Paymob</span>
+                <span>Telegram</span>
+              </div>
+              <div class="project-trust">
+                <p class="project-trust__line">
+                  <span class="project-trust__label">Links &amp; code</span>
+                  <a href="https://github.com/bakora28" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+                  <span class="project-trust__sep" aria-hidden="true">·</span>
+                  <span class="project-trust__note">Portfolio &amp; activity — ask for repo access if needed.</span>
+                </p>
+                <p class="project-trust__tech">
+                  <strong>Tech callout:</strong> Next.js for the product surface, API routes for checkout hooks, Telegram
+                  Bot API for instant order alerts to ops.
+                </p>
+              </div>
+              <a href="#contact" class="case-study-link">Discuss this build →</a>
+            </div>
+          </article>
+
+          <article class="project-detail project-detail--alt reveal reveal-up reveal-delay-1">
+            <div class="project-detail__media project-detail__media--clinic">
+              <div class="project-showcase" role="group" aria-label="Clinic system screenshots">
+                <button
+                  type="button"
+                  class="project-showcase__hero clinic-gallery__cell"
+                  data-lightbox-group="clinic"
+                  aria-label="Main clinic dashboard"
+                >
+                  <img
+                    src="assets/images/projects/clinic/clinic-01.jpeg"
+                    alt="Clinic system — main view"
+                    loading="lazy"
+                    decoding="async"
+                    draggable="false"
+                  />
+                </button>
+                <div class="project-showcase__sub">
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 2">
+                    <img src="assets/images/projects/clinic/clinic-02.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 3">
+                    <img src="assets/images/projects/clinic/clinic-03.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 4">
+                    <img src="assets/images/projects/clinic/clinic-04.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 5">
+                    <img src="assets/images/projects/clinic/clinic-05.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                </div>
+                <div class="project-showcase__sub">
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 6">
+                    <img src="assets/images/projects/clinic/clinic-06.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 7">
+                    <img src="assets/images/projects/clinic/clinic-07.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 8">
+                    <img src="assets/images/projects/clinic/clinic-08.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                  <button type="button" class="clinic-gallery__cell" data-lightbox-group="clinic" aria-label="Screen 9">
+                    <img src="assets/images/projects/clinic/clinic-09.jpeg" alt="" loading="lazy" draggable="false" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="project-detail__content">
+              <p class="project-kicker">Healthcare · Production deployment · Egypt</p>
+              <h3 class="project-detail__title">Clinic management system</h3>
+              <p class="project-detail__lead">
+                <strong>Outcome:</strong> A paid multi‑role clinic system in Egypt — admins, doctors, reception,
+                and patients with correct access and workflows.
+              </p>
+              <p class="project-detail__desc">
+                <strong>My role:</strong> End‑to‑end rollout — PHP/MySQL backend, dashboards, billing, reporting.
+              </p>
+              <p class="project-detail__desc project-detail__desc--tight">
+                <strong>Problem solved:</strong> One place for scheduling, billing, prescriptions, and
+                reminders instead of spreadsheets. <strong>Impact:</strong> SMS/email reminders and clearer
+                revenue views for admins (add KPIs when you can share them).
+              </p>
+              <ul class="project-metrics" aria-label="Highlights">
+                <li><strong>4 roles</strong> — Admin, Doctor, Receptionist, Patient</li>
+                <li><strong>9+</strong> surface areas captured (gallery)</li>
+                <li><strong>Live</strong> production deployment at client</li>
+              </ul>
+              <div class="tag-list tag-list--compact">
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Bootstrap</span>
+                <span>Chart.js</span>
+                <span>Secure SQL</span>
+              </div>
+              <div class="project-trust">
+                <p class="project-trust__line">
+                  <span class="project-trust__label">Deployment</span>
+                  <span class="project-trust__note">Private codebase · live on client infrastructure in Egypt.</span>
+                </p>
+                <p class="project-trust__tech">
+                  <strong>Tech callout:</strong> PHP&nbsp;8 + MySQL with strict RBAC (admin, doctor, reception, patient)
+                  and Chart.js for admin analytics.
+                </p>
+              </div>
+              <a href="#contact" class="case-study-link">Discuss this deployment →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-divider" id="about">
+        <span class="deco-side" aria-hidden="true"></span>
+        <div class="section-inner">
+          <div class="about-grid about-grid--proof">
+            <div class="about-proof reveal reveal-left">
+              <div class="proof-card">
+                <strong class="proof-card__value">Production</strong>
+                <span class="proof-card__label">Shipped paid clinic system &amp; full e‑commerce builds</span>
+              </div>
+              <div class="proof-card">
+                <strong class="proof-card__value">BSc AI</strong>
+                <span class="proof-card__label">Alamein International University · 2025</span>
+              </div>
+              <div class="proof-card proof-card--accent">
+                <strong class="proof-card__value">Stack</strong>
+                <span class="proof-card__label">React / Next.js · Node · PHP · SQL · AWS</span>
+              </div>
+              <h3 class="about-timeline-title">Experience snapshots</h3>
+              <ul class="about-timeline">
+                <li><span class="about-timeline__date">2024</span> Java intern — ITI (labs, client‑server chat)</li>
+                <li><span class="about-timeline__date">2024</span> SRTA‑City — NLP / Quran QA (Python, team)</li>
+                <li><span class="about-timeline__date">2025</span> Clinic CMS — paid deployment (lead rollout)</li>
+              </ul>
+            </div>
+            <div class="about-copy reveal reveal-right">
+              <span class="badge">About</span>
+              <div class="section-head section-head--left">
+                <h2>How I work</h2>
+              </div>
+              <p class="about-signature" role="emphasis">
+                I build practical systems that stay <strong>maintainable after launch</strong> — not just
+                polished demos.
+              </p>
+              <p class="about-lead">
+                I focus on <strong>full‑stack products</strong>: dashboards, e‑commerce, and ops‑heavy flows
+                where permissions and data match real work.
+              </p>
+              <p class="about-lead about-lead--spaced">
+                I ship with <strong>clear scope</strong>, then iterate — I want roles where I own features
+                end‑to‑end.
+              </p>
+              <h3 class="about-services-title">Core stack</h3>
+              <p class="about-skills-intro">What I use most day to day — full CV list below.</p>
+              <div class="tag-list tag-list--about tag-list--compact">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+                <span>PostgreSQL</span>
+                <span>MongoDB</span>
+              </div>
+              <p class="about-core-note">Also: PHP · MySQL · AWS — see details.</p>
+              <details class="skills-details">
+                <summary>Full skill list (languages, ML, AWS…)</summary>
+                <div class="about-skill-group">
+                  <p class="about-skill-heading">Programming &amp; tools</p>
+                  <ul class="about-skill-list">
+                    <li><strong>Languages:</strong> JavaScript, TypeScript, Python, Java, SQL, R</li>
+                    <li><strong>Web &amp; APIs:</strong> React, Next.js, Node.js, Express, NestJS, HTML/CSS, Tailwind, Bootstrap</li>
+                    <li><strong>Data:</strong> MongoDB, PostgreSQL, MySQL</li>
+                    <li><strong>Tooling:</strong> Git, Docker</li>
+                  </ul>
+                </div>
+                <div class="about-skill-group">
+                  <p class="about-skill-heading">AI / ML &amp; cloud</p>
+                  <p class="about-skill-line">
+                    TensorFlow · PyTorch · OpenCV · Scikit-learn · Pygame · Tkinter · AWS (RDS, S3, SES, IAM,
+                    CloudFront)
+                  </p>
+                </div>
+              </details>
+              <h3 class="about-services-title">Services</h3>
+              <ul class="about-services">
+                <li>Business websites &amp; landing pages</li>
+                <li>E‑commerce (Stripe / Paymob ready)</li>
+                <li>Website optimization (speed &amp; SEO)</li>
+                <li>Maintenance &amp; feature updates</li>
+              </ul>
+              <a href="#contact" class="btn-primary">Let’s talk about your project →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="credentials-strip section-divider" id="credentials" aria-labelledby="credentials-heading">
+        <div class="section-inner credentials-strip__inner">
+          <h2 id="credentials-heading" class="visually-hidden">Education, resume, and availability</h2>
+          <div class="credentials-strip__card reveal reveal-up">
+            <p class="credentials-strip__label">Education</p>
+            <p class="credentials-strip__value">BSc Artificial Intelligence · Alamein International University · 2025</p>
+          </div>
+          <div class="credentials-strip__card reveal reveal-up reveal-delay-1">
+            <p class="credentials-strip__label">Resume</p>
+            <a
+              class="credentials-strip__link"
+              href="assets/docs/aboubakr-ashraf-resume.pdf"
+              download
+              target="_blank"
+              rel="noopener"
+              >Download CV (PDF)</a
+            >
+          </div>
+          <div class="credentials-strip__card reveal reveal-up reveal-delay-2">
+            <p class="credentials-strip__label">Availability</p>
+            <p class="credentials-strip__value">Freelance &amp; junior / mid full‑stack · Cairo</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact contact--closing section-divider" id="contact">
+        <div class="section-inner contact-inner">
+          <header class="contact-header reveal reveal-up">
+            <span class="badge">Contact</span>
+            <h2 class="contact-title contact-title--short">Let’s work together</h2>
+            <p class="contact-intro contact-intro--strong">
+              <strong>Email</strong> is best for briefs; <strong>WhatsApp</strong> for quick questions (Egypt / MENA). I
+              usually reply within <strong>1–2 business days</strong>.
+            </p>
+          </header>
+
+          <div class="contact-closing-panel reveal reveal-up reveal-delay-1">
+            <div class="contact-summary-row">
+              <div class="contact-summary-item">
+                <span class="contact-summary-label">Email</span>
+                <a class="contact-email contact-email--inline" href="mailto:aboubakrbakry12@gmail.com"
+                  >aboubakrbakry12@gmail.com</a
+                >
+              </div>
+              <div class="contact-summary-item">
+                <span class="contact-summary-label">Location</span>
+                <span class="contact-summary-value">Cairo · Arabic &amp; English</span>
+              </div>
+              <div class="contact-summary-item">
+                <span class="contact-summary-label">Response</span>
+                <span class="contact-summary-value">1–2 business days</span>
+              </div>
+            </div>
+
+            <div class="contact-primary-actions" role="group" aria-label="Primary ways to reach out">
+              <a class="btn-primary contact-cta-main" href="mailto:aboubakrbakry12@gmail.com">Email me</a>
+              <a
+                class="btn-secondary contact-cta-main"
+                href="https://wa.me/201128658008"
+                target="_blank"
+                rel="noopener noreferrer"
+                >WhatsApp</a
+              >
+              <a
+                class="btn-secondary contact-cta-main contact-cta-main--ghost"
+                href="https://www.linkedin.com/in/aboubakr-ashraf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+
+            <details class="contact-message-fold" id="contact-site-form">
+              <summary class="contact-message-fold__summary">Write a message here</summary>
+              <form
+                class="contact-form contact-form--inline"
+                action="https://formsubmit.co/aboubakrbakry12@gmail.com"
+                method="POST"
+              >
+                <!-- FormSubmit: delivers to your inbox. First time only, confirm the activation email they send. -->
+                <input type="hidden" name="_subject" value="Portfolio — New message" />
+                <input type="text" name="_honey" style="display: none" tabindex="-1" autocomplete="off" aria-hidden="true" />
+                <div class="contact-form__row">
+                  <label class="contact-form__field"
+                    >Name
+                    <input name="name" type="text" placeholder="Your name" autocomplete="name" required />
+                  </label>
+                  <label class="contact-form__field"
+                    >Email
+                    <input name="email" type="email" placeholder="you@email.com" autocomplete="email" required />
+                  </label>
+                </div>
+                <label class="contact-form__field contact-form__field--full"
+                  >Message
+                  <textarea name="message" rows="4" placeholder="Project, timeline, stack" required></textarea>
+                </label>
+                <button type="submit" class="btn-primary">Send message →</button>
+              </form>
+            </details>
+
+            <p class="contact-inline-links">
+              <a href="https://github.com/bakora28" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <span aria-hidden="true">·</span>
+              <a href="assets/docs/aboubakr-ashraf-resume.pdf" download target="_blank" rel="noopener">CV (PDF)</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer--minimal">
+      <p class="site-footer__line">© 2026 Aboubakr Ashraf · Full‑stack developer · Cairo</p>
+      <p class="site-footer__tagline">Ship fast. Keep it maintainable. Make it work for real users.</p>
+    </footer>
+
+    <dialog id="project-lightbox" class="project-lightbox" aria-label="Project screenshots viewer">
+      <div class="project-lightbox__panel" role="document">
+        <button type="button" class="project-lightbox__close" aria-label="Close viewer">×</button>
+        <button type="button" class="project-lightbox__prev" aria-label="Previous image">‹</button>
+        <button type="button" class="project-lightbox__next" aria-label="Next image">›</button>
+        <img class="project-lightbox__img" alt="" width="1200" height="800" />
+        <p class="project-lightbox__caption" aria-live="polite"></p>
+      </div>
+    </dialog>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
